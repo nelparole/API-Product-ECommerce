@@ -316,8 +316,27 @@
     font-size: 0.9rem;
     padding: 8px 0;
   }
+
 }
 
+/* --- Very small viewport 350px and below --- */
+@media screen and (max-width: 214px) {
+  .product-card .detail h3 {
+    font-size: 0.9rem;
+  }
+  .product-card .detail .description {
+    font-size: 0.75rem;
+  }
+  .Sizes button {
+    font-size: 0.75rem;
+    padding: 1px 5px;
+  }
+  .Btn-cart button {
+    font-size: 0.9rem;
+    padding: 3px 0;
+  }
+
+}
 /* --- Responsive Image Height on Mobile --- */
 @media screen and (max-width: 768px) {
   .product-card .product img {
